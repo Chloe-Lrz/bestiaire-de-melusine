@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            border: 0;
+            margin: 0;
+            background-color: darkgray;
+            width: 100%;
+            height: max-content;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer img {
+            width: 4rem;
+            height: auto;
+        } 
+        footer nav a:nth-child(n+2) {
+            width: 100%;
+            margin-left: 6rem;
+        }
+
+    </style>
 </head>
 <body>
     <footer>
         <nav>
-            <ul>
-                <a href="" class="active"><img src="" alt=""></a>
-            </ul>
+            <div>
+                <a href="#" aria-current="page"><img src="assets/img/Logo-coeur-melusine.svg" alt="Favoris"></a>
+                <a href="#"><img src="assets/img/Logo-home-melusine.svg" alt="Acceuil"></a>
+                <a href="#"><img src="assets/img/Logo-account-melusine.svg" alt="Compte"></a>
+            </div>
         </nav>
     </footer>
 </body>
