@@ -1,0 +1,23 @@
+POUR ENVOYER LES MODIFICATIONS
+
+1. Ouvrir un terminal (tout en haut : Terminal, New Terminal)
+
+2. Le terminal s'ouvre tout en bas de l'écran.
+Écrire :
+
+git add .
+Entrée
+git commit -m"la modif que vous venez de faire"
+Entrée
+git pull
+Entrée
+git push
+
+3. S'il y a une erreur dans le pull, hurler à l'aide
+
+
+
+
+POUR RECUPERER LES MODIFICATIONS DES AUTRES
+
+Dans le Terminal, juste faire git pull
