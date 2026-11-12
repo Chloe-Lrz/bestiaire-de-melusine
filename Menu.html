@@ -9,6 +9,22 @@
             margin: 0;
             padding: 0;
         }
+        footer nav div a{
+
+            img{
+                padding:10px;
+            }
+            &:hover img {
+            background-color: lightgray;
+            border-radius: 100px;
+            height:100%;
+        }
+        } 
+        footer [aria-current="page"] IMG {
+            background-color: whitesmoke;
+            border-radius: 100px;
+            height:100%;
+        }
         footer {
             position: fixed;
             bottom: 0;
@@ -21,7 +37,7 @@
             padding: 10px 0;
         }
         footer img {
-            width: 4rem;
+            width: 3rem;
             height: auto;
         } 
         footer nav a:nth-child(n+2) {
@@ -35,8 +51,8 @@
     <footer>
         <nav>
             <div>
-                <a href="#" aria-current="page"><img src="assets/img/Logo-coeur-melusine.svg" alt="Favoris"></a>
-                <a href="#"><img src="assets/img/Logo-home-melusine.svg" alt="Acceuil"></a>
+                <a href="menu.html" aria-current="page"><img src="assets/img/Logo-coeur-melusine.svg" alt="Favoris"></a>
+                <a href="index.html"><img src="assets/img/Logo-home-melusine.svg" alt="Acceuil"></a>
                 <a href="#"><img src="assets/img/Logo-account-melusine.svg" alt="Compte"></a>
             </div>
         </nav>
